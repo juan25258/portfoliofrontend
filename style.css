@@ -1,0 +1,98 @@
+.contenedor{
+display: flex;
+justify-content: center;
+}
+
+
+.mat-card {
+    border-radius: 10px;
+    margin: 10px 10px ;
+    padding: 20px;
+    border-color: rgb(226, 52, 29) ;
+    position: absolute;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+
+div#imagen-de-fondo {
+    display: flex;
+    z-index: 1 ;
+}
+
+div#imagen-de-fondo img {
+    width: 100%;
+    border-radius: 32px 32px 0 0; 
+}
+
+div#info {
+    position: relative;
+    display: inline-flex;
+    /*border:groove;*/ 
+    border-radius: 0 0 32px 32px ;
+    bottom: 100px;
+    z-index: 100;
+}
+
+.fa-solid {
+    vertical-align:bottom
+}
+.foto-de-perfil {
+    display: inline-flex;
+    border-radius: 20% ;
+    width: 140px;
+    height: 140px;
+    margin-top: 36px;
+}
+
+
+#info-data{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+
+}
+
+#imagen-AP {
+    width: 100px;
+    height: 50px;
+    border-radius: 8%;
+}
+
+#imagen-UNNE {
+    width: 70px;
+    border-radius: 8%;
+    margin: 10px;
+}
+
+.h2 , h2{
+    font-size:inherit;
+}
+  
+li {
+    list-style: none;
+}
+
+.info-action{
+    border-style: inherit;
+    border-radius: inherit;
+    padding: 0.5em;
+    background: lightblue;
+    position: relative;
+    top:-80px;
+}
+
+#progress{
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:800px) {
+    .contenedor{
+        display: block;
+        width: 100%;
+    }
+}
+
