@@ -15,23 +15,38 @@ justify-content: center;
     justify-content: space-evenly;
 }
 
-div#imagen-de-fondo {
+#imagen-de-fondo {
     display: flex;
     z-index: 1 ;
 }
 
-div#imagen-de-fondo img {
+#imagen-de-fondo img {
     width: 100%;
     border-radius: 32px 32px 0 0; 
 }
 
-div#info {
+#info {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
     position: relative;
-    display: inline-flex;
     /*border:groove;*/ 
-    border-radius: 0 0 32px 32px ;
-    bottom: 100px;
     z-index: 100;
+}
+#info-detalles {
+    margin-top: -217%;
+    margin-right: 100%;
+    align-content: flex-end;
+}
+.info-action {
+    background: #add8e6;
+    border-radius: 10px;
+    padding: 10px;
+}
+#info-data{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .fa-solid {
@@ -44,16 +59,9 @@ div#info {
     height: 200px;
     margin-top: -40px;
 }
-
-
-#info-data{
-    display: inline-flex;
-    position: absolute;
-    right: 10px;
-    top: 100px;
-
+.experiencia-educación {
+    margin: 20px;
 }
-
 #imagen-AP {
     width: 100px;
     height: 50px;
@@ -74,20 +82,31 @@ li {
     list-style: none;
 }
 
-.info-action{
-    border-style: inherit;
-    border-radius: inherit;
-    padding: 0.5em;
-    background: lightblue;
-    position: relative;
-    top:-80px;
-}
+.skills {
+    width: 80%;
+    margin: 10px;
+    border: 1px solid rgb(216, 47, 47);
+    padding: 5px;
 
-#progress{
-    padding-right: 10px;
-    font-size: 1rem;
 }
-
+.container {
+    width: 100%;
+    background: rgb(15, 142, 216);
+}
+.sk {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.html {
+    background-color: rgb(42, 226, 119);
+    animation: fillhtml 2s forwards;
+}
+@keyframes fillhtml{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
 .pie {
     display: flex;
     justify-content: space-between;
