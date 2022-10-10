@@ -91,7 +91,8 @@ li {
 }
 .container {
     width: 100%;
-    background: rgb(15, 142, 216);
+    background: rgb(217, 222, 224);
+    padding: 0px;
 }
 .sk {
     text-align: right;
@@ -106,6 +107,22 @@ li {
 @keyframes fillhtml{
     0%{width: 0%;}
     100%{width: 80%;}
+}
+.css {
+    background-color: rgb(42, 226, 119);
+    animation: fillcss 2s forwards;
+}
+@keyframes fillcss{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.js {
+    background-color: rgb(42, 226, 119);
+    animation: filljs 2s forwards;
+}
+@keyframes filljs{
+    0%{width: 0%;}
+    100%{width: 50%;}
 }
 .pie {
     display: flex;
