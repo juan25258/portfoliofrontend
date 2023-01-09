@@ -155,6 +155,10 @@ font-size: 40px;
 margin-top:1%;
 margin-right: 2%;
 }
+.redes > a {
+    text-decoration: none;
+    color: #000;
+  }
 .fb {
     background-color: rgb(53, 53, 221);
     border-radius: 50px;
